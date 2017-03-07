@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BasketballScoreKeeperByTomaLab</string>
+    <string name="Reset">Reset</string>
+    <string name="team_a_score">0</string>
+    <string name="team_a">Team Red</string>
+    <string name="team_b_score">0</string>
+    <string name="team_b">Team Blue</string>
+    <string name="P1A">P1</string>
+    <string name="PlayerOne_a_score">0</string>
+    <string name="points_3">+3</string>
+    <string name="points_2">+2</string>
+    <string name="points_1">+1</string>
+    <string name="P2A">P2</string>
+    <string name="PlayerTwo_a_score">0</string>
+    <string name="P3A">P3</string>
+    <string name="PlayerThree_a_score">0</string>
+    <string name="P4A">P4</string>
+    <string name="PlayerFour_a_score">0</string>
+    <string name="P5A">P5</string>
+    <string name="PlayerFive_a_score">0</string>
+    <string name="P1B">P1</string>
+    <string name="PlayerOne_b_score">0</string>
+    <string name="P2B">P2</string>
+    <string name="PlayerTwo_b_score">0</string>
+    <string name="P3B">P3</string>
+    <string name="PlayerThree_b_score">0</string>
+    <string name="P4B">P4</string>
+    <string name="PlayerFour_b_score">0</string>
+    <string name="P5B">P5</string>
+    <string name="PlayerFive_b_score">0</string>
+
+</resources>

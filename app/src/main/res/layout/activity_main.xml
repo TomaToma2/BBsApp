@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/portrait_grey" />
+
+    <Button
+        style="@style/resetButton"
+        android:layout_marginBottom="@dimen/reset_mb"
+        android:onClick="resetScore"
+        android:text="@string/Reset" />
+
+
+    <LinearLayout style="@style/screen">
+
+
+        <LinearLayout style="@style/nestedLinearLayouts">
+
+            <TextView
+                android:id="@+id/team_a"
+                style="@style/teamNameTextViews"
+                android:background="@color/team_red"
+                android:text="@string/team_a" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                style="@style/teamNameTextViews.scoreTextViews"
+                android:text="@string/team_a_score"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P1A"
+
+                    style="@style/PlayerName"
+                    android:background="#e50000"
+                    android:text="@string/P1A"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerOne_a_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerOne_a_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerOneTeamA"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerOneTeamA"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerOneTeamA"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P2A"
+
+                    style="@style/PlayerName"
+                    android:background="#e50000"
+                    android:text="@string/P2A"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerTwo_a_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerTwo_a_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerTwoTeamA"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerTwoTeamA"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerTwoTeamA"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P3A"
+
+                    style="@style/PlayerName"
+                    android:background="#e50000"
+                    android:text="@string/P3A"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerThree_a_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerThree_a_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerThreeTeamA"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerThreeTeamA"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerThreeTeamA"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P4A"
+
+                    style="@style/PlayerName"
+                    android:background="#e50000"
+                    android:text="@string/P4A"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerFour_a_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerFour_a_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerFourTeamA"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerFourTeamA"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerFourTeamA"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P5A"
+
+                    style="@style/PlayerName"
+                    android:background="#e50000"
+                    android:text="@string/P5A"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerFive_a_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerFive_a_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerFiveTeamA"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerFiveTeamA"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerFiveTeamA"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/view_width"
+            android:layout_height="match_parent"
+            android:background="@color/view_bg">
+
+        </View>
+
+        <LinearLayout style="@style/nestedLinearLayouts">
+
+
+            <TextView
+                android:id="@+id/team_b"
+                style="@style/teamNameTextViews"
+                android:background="@color/team_blue"
+                android:text="@string/team_b" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                style="@style/teamNameTextViews.scoreTextViews"
+                android:text="@string/team_b_score"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P1B"
+
+                    style="@style/PlayerName"
+                    android:background="@color/team_blue"
+                    android:text="@string/P1B"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerOne_b_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerOne_b_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerOneTeamB"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerOneTeamB"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerOneTeamB"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P2B"
+
+                    style="@style/PlayerName"
+                    android:background="@color/team_blue"
+                    android:text="@string/P2B"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerTwo_b_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerTwo_b_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerTwoTeamB"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerTwoTeamB"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerTwoTeamB"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P3B"
+
+                    style="@style/PlayerName"
+                    android:background="@color/team_blue"
+                    android:text="@string/P3B"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerThree_b_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerThree_b_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerThreeTeamB"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerThreeTeamB"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerThreeTeamB"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P4B"
+
+                    style="@style/PlayerName"
+                    android:background="@color/team_blue"
+                    android:text="@string/P4B"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerFour_b_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerFour_b_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerFourTeamB"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerFourTeamB"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerFourTeamB"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/PlayersTeam"
+
+                tools:context="com.example.android.courtcounter.MainActivity">
+
+                <TextView
+                    android:id="@+id/P5B"
+
+                    style="@style/PlayerName"
+                    android:background="@color/team_blue"
+                    android:text="@string/P5B"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/PlayerFive_b_score"
+                    style="@style/PlayerName.scoreTextViews"
+                    android:text="@string/PlayerFive_b_score"
+                    android:textColor="#000000" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addThreeForPlayerFiveTeamB"
+                    android:text="@string/points_3" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addTwoForPlayerFiveTeamB"
+                    android:text="@string/points_2" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addOneForPlayerFiveTeamB"
+                    android:text="@string/points_1" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
